@@ -6,16 +6,22 @@ const now = new Date();
 
 const TwentyFourHourForecast = () => {
 
-    const [forecast, setForecast] = useState([]);
+    const [forecastMorning, setForecastMorning] = useState([]);
+    const [forecastAfternoon, setForecastAfternoon] = useState([]);
+    const [forecastNight, setForecastNight] = useState([]);
     const [time, setTime] = useState([]);
 
     const currentWeather = async () => {
         const { status, data } = await API.get('/environment/24-hour-weather-forecast');
-        const apiForecast = data.items[0].periods[0].regions.central;
+        const apiForecastMorning = data.items[0].periods[0].regions.central;
+        const apiForecastAfternoon = data.items[0].periods[1].regions.central;
+        const apiForecastNight = data.items[0].periods[2].regions.central;
         const apiTimestamp = data.items[0].timestamp;
 
         if (status === 200) {
-            setForecast(apiForecast);
+            setForecastMorning(apiForecastMorning);
+            setForecastAfternoon(apiForecastAfternoon);
+            setForecastNight(apiForecastNight);
             setTime(apiTimestamp);
         }
     }
@@ -28,7 +34,14 @@ const TwentyFourHourForecast = () => {
         return (
             <>
             <h3>24-Hour Weather Forecast</h3>
-            {forecast}
+            <h4>Central Region</h4>
+            <p>{forecastMorning}</p>
+            <p>{forecastAfternoon}</p>
+            <p>{forecastNight}</p>
+
+
+
+
             {/* <div>{dateFormat(now, "dddd, mmmm dS yyyy, h:MM:ss TT")}</div>
             <ul>
             <h4>North Region</h4>
