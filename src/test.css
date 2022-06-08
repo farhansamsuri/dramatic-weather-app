@@ -1,0 +1,29 @@
+
+.body {
+    font-family:'Times New Roman', Times, serif
+}
+
+.suggestions {
+    border: 1px solid #999;
+    background-color: whitesmoke;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    max-height: 209px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: 320px;
+    position: fixed;
+  }
+
+option:hover {
+    background-color: lavenderblush;
+    color: hotpink;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+select:hover {
+    background-color: lavenderblush;
+    cursor: pointer;
+}

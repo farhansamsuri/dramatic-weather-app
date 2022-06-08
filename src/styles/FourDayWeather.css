@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.four-day-container {
+    font-style: 'Poppins';
+    margin: 20px;
+}
+
+.four-day-list {
+    padding: 10px 0px;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#thunderstorm {
+    background-image: url('../assets/images/Thunderstorm.png');
+}
+
+#sunny {
+    background-image: url('../assets/images/Sunny.png');
+}
+
+

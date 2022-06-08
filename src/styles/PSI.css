@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+ul {
+    font-size: 0.75rem;
+}
+
+.subheader {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: darkgrey;
+}
+
+.psi-container {
+    margin: 20px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+#region {
+    font-weight: bold;
+}
+
+#psi-index {
+    font-size: 3.5rem;
+    font-weight:bold;
+    color: whitesmoke;
+}
+
+#green {
+    background-color: green;
+    color: whitesmoke;
+}
+
+#blue {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+#yellow {
+    background-color: gold;
+    color: black;
+}
+
+#orange {
+    background-color: orange;
+    color: whitesmoke;
+
+}
+
+#red {
+    background-color: red;
+    color: whitesmoke;
+}
+
+
+
+table {
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    width: 70vw;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+th {
+    text-align: left;
+}
+
+thead>th {
+    background-color: #55608f;
+}
+
+#psi-graph {
+    width: 70vw;
+}
