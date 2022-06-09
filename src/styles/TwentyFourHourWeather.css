@@ -1,0 +1,26 @@
+.weather-icon-24hr {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#thunderstorm-24hr{
+    background-image: url('../assets/images/Thunderstorm.png');
+}
+
+#sunny-24hr {
+    background-image: url('../assets/images/Sunny.png');
+}
+
+#cloudy-24hr {
+    background-image: url('../assets/images/Cloudy.png');
+}
+
+#showers-24hr {
+    background-image: url('../assets/images/Heavy_Rain.png');
+}
+
+#light-rain-24hr {
+    background-image: url('../assets/images/Light_Rain.png');
+}
