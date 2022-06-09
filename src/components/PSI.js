@@ -22,13 +22,11 @@ const PSI = (props) => {
     useEffect(() => {
         getPSI();
         setRegion(props.region);
-        console.log(region);
         console.log("useEffect has been called") //for checking only
     }, [props.region]);
 
     var alertLevel;
     var airQuality;
-    var psiAdvisory;
     switch (true) {
         case (index[region] <= 50):
             alertLevel = "green";
