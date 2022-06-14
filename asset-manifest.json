@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dramatic-weather-app/static/css/main.769e3b1c.css",
-    "main.js": "/dramatic-weather-app/static/js/main.81ced373.js",
+    "main.css": "/dramatic-weather-app/static/css/main.0b0a0b05.css",
+    "main.js": "/dramatic-weather-app/static/js/main.5624d8ef.js",
     "static/js/787.8a8565de.chunk.js": "/dramatic-weather-app/static/js/787.8a8565de.chunk.js",
     "static/media/Heavy_Rain.png": "/dramatic-weather-app/static/media/Heavy_Rain.64446a5ff5ad3c0d698c.png",
     "static/media/Cloudy.png": "/dramatic-weather-app/static/media/Cloudy.229dac801bc800d575da.png",
@@ -10,12 +10,12 @@
     "static/media/Sunny.png": "/dramatic-weather-app/static/media/Sunny.9bab82f47d65cedb3b05.png",
     "static/media/Windy.png": "/dramatic-weather-app/static/media/Windy.2662618dc54340d9d0b2.png",
     "index.html": "/dramatic-weather-app/index.html",
-    "main.769e3b1c.css.map": "/dramatic-weather-app/static/css/main.769e3b1c.css.map",
-    "main.81ced373.js.map": "/dramatic-weather-app/static/js/main.81ced373.js.map",
+    "main.0b0a0b05.css.map": "/dramatic-weather-app/static/css/main.0b0a0b05.css.map",
+    "main.5624d8ef.js.map": "/dramatic-weather-app/static/js/main.5624d8ef.js.map",
     "787.8a8565de.chunk.js.map": "/dramatic-weather-app/static/js/787.8a8565de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.769e3b1c.css",
-    "static/js/main.81ced373.js"
+    "static/css/main.0b0a0b05.css",
+    "static/js/main.5624d8ef.js"
   ]
 }
