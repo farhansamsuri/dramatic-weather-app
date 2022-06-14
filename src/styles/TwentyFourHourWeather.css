@@ -60,3 +60,19 @@
 .light-rain-24hr {
     background-image: url('../assets/images/Light_Rain.png');
 }
+
+@media screen and (max-width: 540px) {
+ 
+    .weather-list-24hr {
+        width: 100px;
+        padding: 0px;
+    } 
+
+    .weather-list-24hr .timing {
+        text-align: center;
+    }
+
+    .timing {
+        margin: 0 auto;
+    }
+}

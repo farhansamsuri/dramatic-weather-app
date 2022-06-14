@@ -104,3 +104,35 @@ ul {
 .redLabel {
     color: red;
 }
+
+@media screen and (max-width: 960px) {
+ 
+    .psi-container {
+        width: 540px;
+    }
+
+    td {
+        font-size: 14px;
+    }
+
+    .psi-circle {
+        margin: auto;
+    }
+
+    #region {
+        font-size : 20px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+ 
+    .psi-container {
+        width: 340px;
+    }
+
+    td {
+        font-size: 10px;
+    }
+
+}
