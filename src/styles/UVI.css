@@ -84,3 +84,27 @@
 .uvIndexPurple {
     color: #7031a1; 
 }
+
+@media screen and (max-width: 960px) {
+ 
+    .uvi-container {
+        width: 540px;
+    }
+
+    .uvDisplay {
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+ 
+    .uvi-container {
+        width: 340px;
+    }
+    
+    .uvDisplay {
+        margin-left: 11px;
+    }
+}
+

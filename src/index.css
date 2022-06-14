@@ -134,3 +134,53 @@ th:nth-child(2) {
     }
 
 }
+
+@media screen and (max-width: 540px) {
+
+    h1 {
+        font-size : 22px;
+    }
+
+    h2 {
+        font-size : 24px;
+    }
+
+    h3 {
+        font-size : 15px;
+        box-sizing : content-box;
+        width: auto;
+    }
+
+    .today-weather,
+    .uvi,
+    .psi {
+        width: 340px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .twenty-four-hr-weather, 
+    .next-three-days-weather,
+    .nav-bar,
+    .search-bar,
+    .select
+     {
+        width: 340px ;
+        margin:auto;
+        text-align: center;
+    }
+
+    .nav-bar button {
+        height: 40px; 
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .uvi-psi-container {
+        padding-top: 0px;
+    }
+
+    .psi {
+        margin-top: -20px;
+    }
+}

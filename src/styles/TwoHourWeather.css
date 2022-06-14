@@ -75,3 +75,20 @@
 #windy-2hr {
     background-image: url("../assets/images/Windy.png");
 }
+
+@media screen and (max-width: 540px) {
+ 
+    .weather-container-2hr {
+        height: 360px;
+        width: 310px;
+        margin-right: 40px;
+    }
+
+    .weather-icon-2hr {
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+        
+    }
+
+}

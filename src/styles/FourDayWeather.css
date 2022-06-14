@@ -70,3 +70,23 @@
 #light-rain-4d {
     background-image: url('../assets/images/Light_Rain.png');
 }
+
+@media screen and (max-width: 540px) {
+ 
+    .four-day-list {
+        width: 100px;
+        padding: 0px;
+    }
+
+    .four-day-list .temp-weather {
+        font-size: 20px;
+
+    }
+
+    .four-day-list .forecast {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+}
